@@ -1,14 +1,14 @@
 #ifndef _FILME_H
 #define _FILME_H
 
-#define MAX_CARACTERES 20 
+#define MAX_CARACTERES 20
 
 typedef struct Filme {
-    int codigo; 
-    char nome[MAX_CARACTERES]; 
-    int valor; 
-    int qtdEstoque; 
-    int qtdAlugada; 
+    int codigo;
+    char nome[MAX_CARACTERES];
+    int valor;
+    int qtdEstoque;
+    int qtdAlugada;
 } tFilme;
 
 /**

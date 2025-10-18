@@ -2,8 +2,8 @@
 #define _IMAGEM_H
 
 typedef enum {
-    FLOAT = 0, 
-    INT = 1    
+    FLOAT = 0,
+    INT = 1
 } Tipo;
 
 /**

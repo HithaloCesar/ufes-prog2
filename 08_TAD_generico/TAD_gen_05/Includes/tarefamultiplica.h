@@ -5,7 +5,7 @@ typedef struct mult tMult;
 
 /**
  * @brief Cria uma tarefa do tipo multiplicação de dois números
- * 
+ *
  * @param n1 - Primeiro número que será multiplicado quando a tarefa for executada
  * @param n2 - Segundo número que será multiplicado quando a tarefa for executada
  *

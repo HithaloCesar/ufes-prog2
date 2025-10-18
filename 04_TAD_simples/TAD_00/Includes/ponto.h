@@ -1,7 +1,7 @@
 /* ponto.h
 
 	TAD Ponto: tipo abstrato de dado para representar um ponto no RxR.
-	
+
 	@author Rodrigo Laiola Guimaraes <rlaiola@inf.ufes.br>
 
 */
@@ -20,7 +20,7 @@ typedef struct ponto Ponto;
 
 /* Funcoes exportadas */
 
-/* Funcao cria 
+/* Funcao cria
 ** Retorna um ponto com coordenadas (x,y)
 */
 Ponto pto_cria (float x, float y);

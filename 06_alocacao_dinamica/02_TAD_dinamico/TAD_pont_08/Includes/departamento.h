@@ -12,16 +12,16 @@ typedef struct Departamento {
 } tDepartamento;
 
 /**
- * @brief Cria uma estrutura, alocada dinamicamente, que possui os campos de um departamento. 
+ * @brief Cria uma estrutura, alocada dinamicamente, que possui os campos de um departamento.
  * Lembre-se de inicializar os ponteiros com NULL e as variáveis númericas com -1.
- * 
+ *
  * @return Um ponteiro para uma estrutura de um Departamento.
  */
 tDepartamento* CriaDepartamento();
 
 /**
  * @brief Preenche os dados de uma estrutura departamento a partir de valores nomes dos cursos, nome do departamento, média por curso e nome do diretor.
- * 
+ *
  * @param c1 Nome de um dos cursos do departamento.
  * @param c2 Nome de um dos cursos do departamento.
  * @param c3 Nome de um dos cursos do departamento.
@@ -38,14 +38,14 @@ void LiberaMemoriaDepartamento(tDepartamento* depto);
 
 /**
  * @brief Imprime os atributos do departamento, sendo eles: cursos, nome do departamento, média por curso e nome do diretor.
- * 
+ *
  * @param depto Departamento cujos atributos serão impressos.
  */
 void ImprimeAtributosDepartamento (tDepartamento* depto);
 
 /**
  * @brief Verifica se a media inserida é valida, ou seja, pertence à [0, 10].
- * 
+ *
  * @param media Valor a ser validado.
  * @return int Se é válida (1) ou não (0).
  */
@@ -53,7 +53,7 @@ int ValidaMediaDepartamento (int media);
 
 /**
  * @brief Calcula o Desvio Padrão das médias por curso de um departamento.
- * 
+ *
  * @param depto Departamento cujo Desvio Padrão de médias por curso deve ser calculado.
  * @return double Valor do cálculo do Desvio Padrão.
  */
@@ -61,7 +61,7 @@ double CalculaDesvioPadraoDepartamento(tDepartamento* depto);
 
 /**
  * @brief Calcula a média simples das notas dos cursos do departamento.
- * 
+ *
  * @param depto Departamento cuja media simples deve ser calculada.
  * @return double Valor do calculo da média simples.
  */
@@ -69,7 +69,7 @@ double CalculaMediaGeralDepartamento(tDepartamento* depto);
 
 /**
  * @brief Ordena o vetor de departamentos em ordem decrescente de acordo com as médias dos departamentos.
- * 
+ *
  * @param deptos Vetor de departamentos a ser ordenado.
  * @param tamanho Tamanho do vetor a ser ordenado.
  */

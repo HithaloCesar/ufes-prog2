@@ -26,10 +26,10 @@ void DestroiProduto(tProduto *produto);
 /**
  * @brief Função para ler um produto de um arquivo binário.
  * @param arquivo O arquivo de onde o produto será lido.
- * Formato do arquivo: 
- * Código (int) 
- * Nome (string) 
- * Preço (float) 
+ * Formato do arquivo:
+ * Código (int)
+ * Nome (string)
+ * Preço (float)
  * Quantidade (int).
  * @return Um ponteiro para o produto lido.
  */

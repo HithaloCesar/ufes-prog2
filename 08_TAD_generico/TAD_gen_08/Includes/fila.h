@@ -7,14 +7,14 @@ typedef struct Fila Fila;
 
 /**
  * @brief Cria uma fila vazia
- * 
+ *
  * @return A estrutura Fila inicializada. Caso não seja possível alocar memória, o programa é encerrado.
 */
 Fila *FilaConstruct();
 
 /**
  * @brief Desaloca a memória alocada para a fila
- * 
+ *
  * @param f Ponteiro para a fila
  * @param destroy Função que desaloca a memória alocada para cada elemento da fila
 */
@@ -22,7 +22,7 @@ void FilaDestroy(Fila *f, void (*destroy)(DataType));
 
 /**
  * @brief Retorna o tamanho da fila
- * 
+ *
  * @param f Ponteiro para a fila
  * @return int Tamanho da fila
 */
@@ -39,7 +39,7 @@ DataType FilaPop(Fila *f);
 
 /**
  * @brief Adiciona um elemento no final da fila
- * 
+ *
  * @param f Ponteiro para a fila
  * @param val Valor a ser adicionado
 */

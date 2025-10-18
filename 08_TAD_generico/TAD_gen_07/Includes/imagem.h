@@ -5,8 +5,8 @@
  * @brief Enumeração para representar o tipo de dados da imagem.
  */
 typedef enum {
-    FLOAT = 0, 
-    INT = 1    
+    FLOAT = 0,
+    INT = 1
 } Tipo;
 
 /**

@@ -13,10 +13,10 @@ Cadastrar
 #
 Estoque
 #
-Alugar 
+Alugar
 4
 #
-Alugar 
+Alugar
 4
 #
 Devolver

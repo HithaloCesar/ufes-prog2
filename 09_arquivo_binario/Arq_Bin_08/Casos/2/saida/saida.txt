@@ -3,7 +3,7 @@
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 Lista de contatos cadastrados
 Nome: Maria
@@ -29,7 +29,7 @@ Telefone: 997874191
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 Contato removido com sucesso
 1 - Cadastrar contato
@@ -37,11 +37,11 @@ Contato removido com sucesso
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 1 - Buscar pelo nome
 2 - Buscar pelo numero de telefone
-Opcao escolhida: 
+Opcao escolhida:
 
 Contato nao encontrado
 1 - Cadastrar contato
@@ -49,13 +49,13 @@ Contato nao encontrado
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 1 - Cadastrar contato
 2 - Remover contato
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 Ja existe um contato com esse nome e/ou numero de telefone
 1 - Cadastrar contato
@@ -63,19 +63,19 @@ Ja existe um contato com esse nome e/ou numero de telefone
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 1 - Cadastrar contato
 2 - Remover contato
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 1 - Cadastrar contato
 2 - Remover contato
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 Ja existe um contato com esse nome e/ou numero de telefone
 1 - Cadastrar contato
@@ -83,7 +83,7 @@ Ja existe um contato com esse nome e/ou numero de telefone
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 Ja existe um contato com esse nome e/ou numero de telefone
 1 - Cadastrar contato
@@ -91,11 +91,11 @@ Ja existe um contato com esse nome e/ou numero de telefone
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 1 - Buscar pelo nome
 2 - Buscar pelo numero de telefone
-Opcao escolhida: 
+Opcao escolhida:
 Nome: Beatriz
 Telefone: 991111888
 
@@ -104,11 +104,11 @@ Telefone: 991111888
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 1 - Buscar pelo nome
 2 - Buscar pelo numero de telefone
-Opcao escolhida: 
+Opcao escolhida:
 
 Contato nao encontrado
 1 - Cadastrar contato
@@ -116,7 +116,7 @@ Contato nao encontrado
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:
 
 Lista de contatos cadastrados
 Nome: Maria
@@ -148,4 +148,4 @@ Telefone: 991111888
 3 - Realizar busca
 4 - Exibir todos os contatos
 0 - Sair da lista de contatos
-Opcao escolhida: 
+Opcao escolhida:

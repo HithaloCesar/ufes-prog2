@@ -5,7 +5,7 @@ typedef struct soma tSoma;
 
 /**
  * @brief Cria uma tarefa do tipo soma de dois números
- * 
+ *
  * @param n1 - Primeiro número que será somado quando a tarefa for executada
  * @param n2 - Segundo número que será somado quando a tarefa for executada
  *

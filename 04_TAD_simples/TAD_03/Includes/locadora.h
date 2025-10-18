@@ -7,9 +7,9 @@
 
 
 typedef struct Locadora {
-    tFilme filme[MAX_FILMES]; 
-    int numFilmes; 
-    int lucro; 
+    tFilme filme[MAX_FILMES];
+    int numFilmes;
+    int lucro;
 } tLocadora;
 
 /**

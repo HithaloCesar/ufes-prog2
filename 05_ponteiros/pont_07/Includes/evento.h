@@ -3,7 +3,7 @@
 
 #define MAX_EVENTOS 10
 
-//Estrutura para representar um evento no calendário. 
+//Estrutura para representar um evento no calendário.
 typedef struct {
     char nome[50]; // Nome do evento.
     int dia;       // Dia do evento.

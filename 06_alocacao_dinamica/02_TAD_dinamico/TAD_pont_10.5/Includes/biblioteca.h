@@ -8,21 +8,21 @@
 
 // Estrutura que representa uma biblioteca de livros
 typedef struct {
-    tLivros** livros; // Array de livros 
+    tLivros** livros; // Array de livros
     int tamanho; // Número atual de livros na biblioteca
     int tam_max_atual; //Número máximo atual de livros suportados pela biblioteca
 } tBiblioteca;
 
 /**
  * Inicializa uma biblioteca vazia.
- * Ponteiros são inicializados com NULL; 
+ * Ponteiros são inicializados com NULL;
  * @return A biblioteca inicializada.
  */
 tBiblioteca* InicializarBiblioteca();
 
 /**
  * Apaga toda a memória alocada dinamicamente dentro de uma biblioteca
- * Ponteiros são inicializados com NULL; 
+ * Ponteiros são inicializados com NULL;
  * @return A biblioteca inicializada.
  */
 void ApagaBiblioteca(tBiblioteca* biblioteca);
@@ -38,7 +38,7 @@ void ApagaBiblioteca(tBiblioteca* biblioteca);
 void AdicionarLivroNaBiblioteca(tBiblioteca* biblioteca, tLivros* livro);
 
 /**
- * Remove um livro da biblioteca pelo título. 
+ * Remove um livro da biblioteca pelo título.
  * Se o título for encontrado, imprime "Livro removido com sucesso!",
  * Senão, imprime "Livro não encontrado na biblioteca."
  *
@@ -49,7 +49,7 @@ void RemoverLivroDaBiblioteca(tBiblioteca* biblioteca, char *titulo);
 
 /**
  * Verifica se o título digitado é igual ao título do livro.
- * 
+ *
  * @param livro Ponteiro para o livro cujo título será verificado.
  * @param titulo O título digitado pelo usuário.
  * @return se o título for igual, retorna 0.
