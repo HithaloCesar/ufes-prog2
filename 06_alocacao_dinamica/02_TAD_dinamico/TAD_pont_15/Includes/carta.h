@@ -11,8 +11,8 @@ struct carta{
 	char * nome;
 	int  magia, ataque, fogo;
 
-	int num_vit; 
-	int num_duelos; 
+	int num_vit;
+	int num_duelos;
 };
 
 /**

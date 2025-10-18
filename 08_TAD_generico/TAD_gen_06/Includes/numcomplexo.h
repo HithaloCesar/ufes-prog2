@@ -9,7 +9,7 @@ typedef struct complexo tNumComplexo;
  * @param real - Parte real do número complexo
  * @param imag - Parte Imaginária do número complexo
  *
- * @return Um ponteiro para um novo número complexo, cuja parte real e imaginária são iguais 
+ * @return Um ponteiro para um novo número complexo, cuja parte real e imaginária são iguais
  * aos valores passados para a função
  */
 tNumComplexo* CriaNumComplexo(float real, float imag);

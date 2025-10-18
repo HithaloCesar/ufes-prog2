@@ -11,7 +11,7 @@ typedef struct Aluno tAluno;
 
 /**
  * @brief Função para criar um novo aluno.
- * 
+ *
  * @param nome Nome do aluno.
  * @param dataNascimento Data de nascimento do aluno.
  * @param curso Curso em que o aluno está matriculado.
@@ -23,14 +23,14 @@ tAluno* CriarAluno(char* nome, char* dataNascimento, char* curso, int periodo, f
 
 /**
  * @brief Função para destruir um aluno.
- * 
+ *
  * @param aluno O aluno a ser destruído.
  */
 void DestruirAluno(tAluno* aluno);
 
 /**
  * @brief Função para ler um aluno de um arquivo binário.
- * 
+ *
  * @param arquivo_binario O arquivo binário para ler o aluno.
  * @return Um ponteiro para o aluno lido.
  */
@@ -38,7 +38,7 @@ tAluno *LeAluno(FILE *arquivo_binario);
 
 /**
  * @brief Função para obter o coeficiente de rendimento de um aluno.
- * 
+ *
  * @param aluno O aluno para obter o coeficiente de rendimento.
  * @return O coeficiente de rendimento do aluno.
  */

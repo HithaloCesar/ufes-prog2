@@ -7,7 +7,7 @@ typedef struct empresa tEmpresa;
 
 /**
  * @brief Cria uma empresa "vazia"
- * 
+ *
  * Seus atributos devem ser inicializados com NULL (ponteiros), ou -1 caso contrário
  * @return TEmpresa* Ponteiro para empresa criada a partir do Id fornecido.
  */
@@ -28,7 +28,7 @@ void ApagaEmpresa(tEmpresa* empresa);
 
 /**
  * @brief Adiciona um funcionario a uma empresa caso o id do funcionario ainda nao esteja registrado na empresa.
- * 
+ *
  * @param empresa Ponteiro para Empresa em que o funcionario deve ser adicionado.
  * @param funcionario Ponteiro para Funcionario que deve ser adicionado a empresa.
   */
@@ -36,7 +36,7 @@ void ContrataFuncionarioEmpresa(tEmpresa* empresa, tFuncionario* funcionario);
 
 /**
  * @brief Imprime todos os dados de um empresa.
- * 
+ *
  * @param empresa Ponteiro para Empresa a ser impressa no terminal.
  */
 void ImprimeEmpresa(tEmpresa *empresa);

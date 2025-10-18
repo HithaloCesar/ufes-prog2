@@ -70,7 +70,7 @@ void matrix_add(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int 
 void matrix_sub(int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2], int result[rows1][cols1]);
 
 /**
- * @brief Multiplica duas matrizes e armazena o resultado em result. Não é feito teste de verificação para a multiplicação. 
+ * @brief Multiplica duas matrizes e armazena o resultado em result. Não é feito teste de verificação para a multiplicação.
  *  A matriz result deve ser inicializada com 0 dentro desta função.
  * @param rows1 Número de linhas da primeira matriz.
  * @param cols1 Número de colunas da primeira matriz.

@@ -1,7 +1,7 @@
 /* circulo.h
 
 	TAD Circulo: tipo abstrato de dado para representar um circulo no RxR.
-	
+
 	@author Rodrigo Laiola Guimaraes <rlaiola@inf.ufes.br>
 	(Adaptado do original)
 */
@@ -16,7 +16,7 @@
 
 /********************************************************************
 	TAD: Circulo (centro, raio)
-	
+
 	OBS: Nao modifique nada neste arquivo.
 ********************************************************************/
 
@@ -30,7 +30,7 @@ typedef struct circulo *tCirculo;
  * @param x Posição x do centro do círculo
  * @param y Posição y do centro do círculo
  * @param r Raio do Círculo
- * @return Ponteiro para a estrutura tCirculo criada 
+ * @return Ponteiro para a estrutura tCirculo criada
  */
 tCirculo Circulo_Cria (float x, float y, float r);
 

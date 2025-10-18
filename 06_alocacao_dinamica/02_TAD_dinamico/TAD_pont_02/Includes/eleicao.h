@@ -23,7 +23,7 @@ typedef struct {
 
     tEleitor** eleitores;
     int totalEleitores;
-    
+
 } tEleicao;
 
 /**
@@ -41,7 +41,7 @@ void ApagaEleicao(tEleicao* eleicao);
 /**
  * @brief Realiza uma eleição.
  * Nessa função, é lido a quantidade de eleitores e os eleitores são lidos e armazenados.
- * @param eleicao Eleição a ser realizada. 
+ * @param eleicao Eleição a ser realizada.
  */
 void RealizaEleicao(tEleicao* eleicao);
 

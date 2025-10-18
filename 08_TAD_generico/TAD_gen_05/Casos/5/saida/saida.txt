@@ -1,4 +1,4 @@
-Digite o numero de tarefas: 
+Digite o numero de tarefas:
 Começando os trabalhos
 O resultado da multiplicacao de 5.00 com 6.00 eh: 30.00
 O resultado da multiplicacao de 25.00 com 11.00 eh: 275.00

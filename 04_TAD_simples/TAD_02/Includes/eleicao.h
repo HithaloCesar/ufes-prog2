@@ -23,7 +23,7 @@ typedef struct {
 
     tEleitor eleitores[MAX_ELEITORES];
     int totalEleitores;
-    
+
 } tEleicao;
 
 /**

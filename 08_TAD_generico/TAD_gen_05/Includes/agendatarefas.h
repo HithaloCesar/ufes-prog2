@@ -29,7 +29,7 @@ void DestroiAgendaDeTarefas(tAgendaTarefas* tar);
  * @param destroi - Ponteiro para função (callback) que será chamada quando for a hora de destruir a tarefa (liberar a memória)
  *
  */
-void CadastraTarefaNaAgenda(tAgendaTarefas* tar, int prioridade, void *tarefa, void (*executa)(void*), void (*destroi)(void*) );   
+void CadastraTarefaNaAgenda(tAgendaTarefas* tar, int prioridade, void *tarefa, void (*executa)(void*), void (*destroi)(void*) );
 
 /**
  * @brief Executa as tarefas que estão salvas na agenda de tarefas passada como parâmetro.

@@ -26,14 +26,14 @@ void LerLivro(tLivros* livro);
 
 /**
  * Imprime os atributos da TAD tLivros (título, autor e ano de publicação).
- * 
+ *
  * @param livro Um ponteiro para o livro cujos atributos serão impressos
 */
 void ImprimeLivro(tLivros* livro);
 
 /**
  * Função para liberar toda a memória alocada por um livro
- * 
+ *
  * @param livro Um ponteiro para o livro cujos atributos serão apagados/liberados
 */
 void ApagaLivro(tLivros* livro);

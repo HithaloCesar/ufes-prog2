@@ -30,7 +30,7 @@ tBiblioteca inicializarBiblioteca();
 tBiblioteca adicionarLivroNaBiblioteca(tBiblioteca biblioteca, tLivros livro);
 
 /**
- * Remove um livro da biblioteca pelo título. 
+ * Remove um livro da biblioteca pelo título.
  * Se o título for encontrado, imprime "Livro removido com sucesso!",
  * Senão, imprime "Livro não encontrado na biblioteca."
  *
@@ -42,7 +42,7 @@ tBiblioteca removerLivroDaBiblioteca(tBiblioteca biblioteca, char *titulo);
 
 /**
  * Verifica se o título digitado é igual ao título do livro.
- * 
+ *
  * @param livro O livro cujo título será verificado.
  * @param titulo O título digitado pelo usuário.
  * @return se o título for igual, retorna 0.

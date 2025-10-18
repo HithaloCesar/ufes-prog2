@@ -5,7 +5,7 @@ typedef struct impr tImpr;
 
 /**
  * @brief Cria uma tarefa do tipo impressão em tela
- * 
+ *
  * @param msg - A mensagem que deve ser impressa em tela
  *
  * @return Um ponteiro para a tarefa criada

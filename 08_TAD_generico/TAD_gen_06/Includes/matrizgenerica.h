@@ -89,7 +89,7 @@ tMatrizGenerica *MatrizTransposta(tMatrizGenerica *mat);
  *
  * @param mat1 - A primeira matriz da multiplicação
  * @param mat2 - A segunda matriz da multiplicação
- * @param numByteTarget - Número de bytes do elemento resultante 
+ * @param numByteTarget - Número de bytes do elemento resultante
  * @param multi_elem - Ponteiro para função (callback) que realiza a multiplicação entre dois elementos do tipo de dados contido na matriz
  * @param soma_elem - Ponteiro para função (callback) que realiza a soma entre dois elementos do tipo de dados contido na matriz
  *
