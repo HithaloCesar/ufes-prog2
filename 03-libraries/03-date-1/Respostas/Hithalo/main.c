@@ -11,7 +11,7 @@ int main(void) {
     if (verificaDataValida(day_1, month_1, year_1) == 0
         || verificaDataValida(day_2, month_2, year_2) == 0) {
         printf("A primeira e/ou segunda data(s) invalida(s)\n");
-        return EXIT_SUCCESS;
+        return EXIT_FAILURE;
     }
 
     printf("Primeira data: ");
