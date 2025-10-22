@@ -5,13 +5,7 @@ int verificaDataValida(int dia, int mes, int ano) {
     if (mes < 1 || mes > 12) {
         return 0;
     }
-    if (mes == 2) {
-        return (dia >= 1 && dia <= numeroDiasMes(mes, ano));
-    } else if (mes == 4 || mes == 6 || mes == 9 || mes == 11) {
-        return (dia >= 1 && dia <= numeroDiasMes(mes, ano));
-    } else {
-        return (dia >= 1 && dia <= numeroDiasMes(mes, ano));
-    }
+    return (dia >= 1 && dia <= numeroDiasMes(mes, ano));
 }
 
 void imprimeMesExtenso(int mes) {
