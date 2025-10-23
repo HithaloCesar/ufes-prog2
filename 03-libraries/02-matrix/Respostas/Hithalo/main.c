@@ -15,21 +15,7 @@ typedef enum {
     MATRIX_OP_EXIT = 6
 } matrix_op;
 
-int ask_for_option(void) {
-    printf("1 - Somar matrizes\n");
-    printf("2 - Subtrair matrizes\n");
-    printf("3 - Multiplicar matrizes\n");
-    printf("4 - Multiplicacao de uma matriz por escalar\n");
-    printf("5 - Transposta de uma matriz\n");
-    printf("6 - Encerrar o programa\n");
-    printf("Opcao escolhida: ");
-
-    int option;
-    scanf("%d", &option);
-    putchar('\n');
-
-    return option;
-}
+static int ask_for_option(void);
 
 int main(void) {
     int rows1, cols1;
@@ -104,6 +90,10 @@ int main(void) {
                 running = false;
                 break;
             }
+            default: {
+                running = false;
+                break;
+            }
         }
 
         putchar('\n');
@@ -114,4 +104,20 @@ int main(void) {
     }
 
     return EXIT_SUCCESS;
+}
+
+static int ask_for_option(void) {
+    printf("1 - Somar matrizes\n");
+    printf("2 - Subtrair matrizes\n");
+    printf("3 - Multiplicar matrizes\n");
+    printf("4 - Multiplicacao de uma matriz por escalar\n");
+    printf("5 - Transposta de uma matriz\n");
+    printf("6 - Encerrar o programa\n");
+    printf("Opcao escolhida: ");
+
+    int option;
+    scanf("%d", &option);
+    putchar('\n');
+
+    return option;
 }
