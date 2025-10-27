@@ -14,4 +14,3 @@ Empresa 5:
 - Funcionario 8: RS 1350.00
 - Funcionario 10: RS 7800.00
 - Funcionario 5: RS 2100.00
-
