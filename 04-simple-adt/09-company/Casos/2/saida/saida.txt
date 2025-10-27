@@ -9,4 +9,3 @@ Empresa 2:
 - Funcionario 1: RS 700.00
 - Funcionario 4: RS 300.00
 - Funcionario 5: RS 860.00
-
