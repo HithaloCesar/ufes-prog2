@@ -1,0 +1,9 @@
+Jogador 0: 0/0/1 (ROOKIE)
+Jogador 3: 1/1/0 (BRONZE)
+Jogador 4: 1/0/2 (ROOKIE)
+Jogador 19: -
+Jogador 15: -
+Jogador 5: 0/0/1 (ROOKIE)
+Jogador 3: 1/1/0 (BRONZE)
+Jogador 8: 1/1/0 (ROOKIE)
+Jogador 1: 0/1/1 (ROOKIE)
